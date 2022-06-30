@@ -18,14 +18,14 @@ The law of total expectation enables us to write the system of equations
 $E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
 $E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
 $E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,2))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
-$E(0,2)=E(1,2)=E(2,2)=0$
-Indeed, the ant travels 10 more to reach a point from a previous one, with equal probability $<sup>1</sup>&frasl;<sub>4</sub>$ from the $4$ neighbours.
+$E(0,2)=E(1,2)=E(2,2)=0$  
+Indeed, the ant travels an exta 10 to reach a point from a previous one, with equal probability $<sup>1</sup>&frasl;<sub>4</sub>$ to reach it from any of the $4$ neighbouring points.
 
 The solution is  
 $E(0,0)=4.5$  
 $E(0,1)=3.5$  
 $E(1,1)=2.75$  
-$E(0,2)=E(1,2)=E(2,2)=0$.
+$E(0,2)=E(1,2)=E(2,2)=0$.  
 The ant walks a number of steps equal to $E(0,0)=4.5$ before reaching any food.
 
 References  
