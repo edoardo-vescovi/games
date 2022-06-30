@@ -12,13 +12,15 @@ Q3) Can you write a program that comes up with an estimate of average time to fi
 
 ## Math solution for Q1
 The ant can explore only the points $(x,y)$ with $-2&lt;x,y&lt;2$.
-Call E(x,y) the average number of steps from the point (0,0) to (x,y).
-The absence of a preferred walking direction, the ant's starting point and the food location's rotational symmetry by 90 degrees imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
-The law of total expectation writes the system of equations  
-$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
-$E(0,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,1))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
-$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,2))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
+Call E(x,y) the average distance walked from the point (0,0) to (x,y).
+The absence of a preferred walking direction, the ant's central starting point and the food location's 90-degree rotational symmetry imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
+The law of total expectation enables us to write the system of equations  
+$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
+$E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
+$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,2))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
 $E(0,2)=E(1,2)=E(2,2)=0$
+Indeed, the ant travels 10 more to reach a point from a previous one, with equal probability $<sup>1</sup>&frasl;<sub>4</sub>$ from the $4$ neighbours.
+
 The solution is  
 $E(0,0)=4.5$  
 $E(0,1)=3.5$  
@@ -30,11 +32,12 @@ References
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
 
 ## Math solution for Q2
-The ant can explore an infinite number of points in the half-plane $y&lt;1-x$.
-
-It reduces to the one-dimensional problem of the drunkard's walk
+The ant can explore the half-plane $y&lt;1-x$. The explorable points are infinite, as the number of unknowns to solve for would be.
+As the previous approach becomes infeasible, we observe that the ant's walk reduces to the drunkard's walk in one dimension.
+Indeed, we can section the visitable locations with the lines $y=c-x$, where $c=...,-20,-10,0,10$.
 
 References  
+Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang  
 https://medium.com/i-math/the-drunkards-walk-explained-48a0205d304  
 https://math.stackexchange.com/questions/306467/expected-number-of-steps-for-reaching-k-in-a-random-walk
 
