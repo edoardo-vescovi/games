@@ -13,10 +13,11 @@ Q3) Can you write a program that comes up with an estimate of average time to fi
 ## Math solution for Q1
 The ant can explore only the points $(x,y)$ with $-2 &lt; x,y &lt; 2$.
 Call E(x,y) the average (= expected value) of steps from the point (0,0) to (x,y).
-The law of total expectation writes the system of equations  
-$ E(0,0)= $ $ <sup>1</sup>&frasl;<sub>4</sub> $ $ (1+E(0,1)) $  
-$ E(0,2)=E(1,2)=E(2,2)=0 $  
 The absence of a preferred walking direction, the ant's starting point and the food location's rotational symmetry by 90 degrees imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
+The law of total expectation writes the system of equations  
+$ E(0,0)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
+$ E(0,2)=E(1,2)=E(2,2)=0 $
+
 
 
 References  
