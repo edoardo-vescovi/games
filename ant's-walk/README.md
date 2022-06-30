@@ -12,21 +12,20 @@ Q3) Can you write a program that comes up with an estimate of average time to fi
 
 ## Math solution for Q1
 The ant can explore only the points $(x,y)$ with $-2&lt;x,y&lt;2$.
-Call E(x,y) the average distance walked from the point (0,0) to (x,y).
+Call E(x,y) the average time elapsed walking from the point (0,0) to (x,y).
 The absence of a preferred walking direction, the ant's central starting point and the food location's 90-degree rotational symmetry imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
 The law of total expectation enables us to write the system of equations  
-$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
-$E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
-$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(10+E(1,2))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
+$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
+$E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
+$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,2))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
 $E(0,2)=E(1,2)=E(2,2)=0$  
 Indeed, the ant travels an exta 10 to reach a point from a previous one, with equal probability $<sup>1</sup>&frasl;<sub>4</sub>$ to reach it from any of the $4$ neighbouring points.
-
 The solution is  
 $E(0,0)=4.5$  
 $E(0,1)=3.5$  
 $E(1,1)=2.75$  
 $E(0,2)=E(1,2)=E(2,2)=0$.  
-The ant walks a number of steps equal to $E(0,0)=4.5$ before reaching any food.
+The ant walks for a time equal to $E(0,0)=4.5$ before reaching any food.
 
 References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
