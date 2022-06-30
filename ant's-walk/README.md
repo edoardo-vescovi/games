@@ -11,7 +11,7 @@ Q2) What is the average time the ant will reach food if it is located only on a 
 Q3) Can you write a program that comes up with an estimate of average time to find food for any closed boundary around the anthill? What would be the answer if food is located outside an defined by ( (x – 2.5cm) / 30cm )2 + ( (y – 2.5cm) / 40cm )2 < 1 in coordinate system where the anthill is located at (x = 0cm, y = 0cm)? Provide us with a solution rounded to the nearest integer.
 
 ## Math solution for Q1
-The ant can explore only the points $(x,y)$ with $-2 &lt; |x|,|y| &lt; 2$.
+The ant can explore only the points $(x,y)$ with $-2 &lt; x,y &lt; 2$.
 Call E(x,y) the average (= expected value) of steps from the point (0,0) to (x,y). The absence of a preferred walking direction, the ant's starting point and the food location's rotational symmetry by 90 degrees imply E(x,y)=E(y,x).
 We can write the system of equations
 
