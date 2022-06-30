@@ -24,12 +24,15 @@ $E(0,0)=4.5$
 $E(0,1)=3.5$  
 $E(1,1)=2.75$  
 $E(0,2)=E(1,2)=E(2,2)=0$.
-The ant walks a number of steps equal to $E(0,0)=4.5$ in order to reach any food.
+The ant walks a number of steps equal to $E(0,0)=4.5$ before reaching any food.
 
 References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
 
 ## Math solution for Q2
+The ant can explore an infinite number of points in the half-plane $y1-2&lt;-x$.
+
+It is the one-dimensional problem of the drunkard's walk
 
 References  
 https://medium.com/i-math/the-drunkards-walk-explained-48a0205d304  
