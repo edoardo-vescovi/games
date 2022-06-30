@@ -30,9 +30,9 @@ References
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
 
 ## Math solution for Q2
-The ant can explore an infinite number of points in the half-plane $y1-2&lt;-x$.
+The ant can explore an infinite number of points in the half-plane $y&lt;1-x$.
 
-It is the one-dimensional problem of the drunkard's walk
+It reduces to the one-dimensional problem of the drunkard's walk
 
 References  
 https://medium.com/i-math/the-drunkards-walk-explained-48a0205d304  
