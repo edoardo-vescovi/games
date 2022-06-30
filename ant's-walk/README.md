@@ -19,8 +19,12 @@ $ E(0,0)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4
 $ E(0,1)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,2)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
 $ E(1,1)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
 $ E(0,2)=E(1,2)=E(2,2)=0 $
-
-
+The solution is  
+$ E(0,0)=4.5 $  
+$ E(0,1)=3.5 $  
+$ E(1,1)=2.75 $  
+$ E(0,2)=E(1,2)=E(2,2)=0.
+The ant walks a number of steps equal to $E(0,0)=4.5$ in order to reach any food.
 
 References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
