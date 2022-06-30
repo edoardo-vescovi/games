@@ -15,15 +15,15 @@ The ant can explore only the points $(x,y)$ with $-2 &lt; x,y &lt; 2$.
 Call E(x,y) the average (= expected value) of steps from the point (0,0) to (x,y).
 The absence of a preferred walking direction, the ant's starting point and the food location's rotational symmetry by 90 degrees imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
 The law of total expectation writes the system of equations  
-$E(0,0)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
-$E(0,1)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,2)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
-$E(1,1)= <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2)) +<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
-$ E(0,2)=E(1,2)=E(2,2)=0 $
+$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
+$E(0,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,1))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
+$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,2))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
+$E(0,2)=E(1,2)=E(2,2)=0$
 The solution is  
-$ E(0,0)=4.5 $  
-$ E(0,1)=3.5 $  
-$ E(1,1)=2.75 $  
-$ E(0,2)=E(1,2)=E(2,2)=0 $.
+$E(0,0)=4.5$  
+$E(0,1)=3.5$  
+$E(1,1)=2.75$  
+$E(0,2)=E(1,2)=E(2,2)=0$.
 The ant walks a number of steps equal to $E(0,0)=4.5$ in order to reach any food.
 
 References  
