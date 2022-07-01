@@ -14,7 +14,7 @@ E(1,1) = <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4<
 
 E(0,2) = E(1,2) = E(2,2) = 0  
 
-Indeed, the ant travelled for an exta second before reaching its current location (lhs) from the previous one (rhs). The probability of such step from the 4 neighbouring points it is <sup>1</sup>&frasl;<sub>4</sub>. The independent variables take values  
+Indeed, the ant travelled for an exta second before reaching the current location (lhs) from the 4 neighbouring locations (rhs). The probability of each step is <sup>1</sup>&frasl;<sub>4</sub>. The independent variables take values  
 E(0,0) = 4.5  
 E(0,1) = 3.5  
 E(1,1) = 2.75  
