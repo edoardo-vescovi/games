@@ -17,7 +17,7 @@ The one-dimensional ant's walk is nothing but drunkard's walk in disguise:
 
 > There once was a drunk man who wandered far too close to a cliff. From where he stands, one step forward would send the drunk man over the edge. He takes random steps, either towards or away from the cliff. At any step, his probability of taking a step away is p and a step towards the cliff is 1-p.
 
-Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff is at u = 10. This problem usually asks for the probability of falling: 1 if p &le; <sup>1</sup>&frasl;<sub>2</sub> and (1-p)/p if p &ge; <sup>1</sup>&frasl;<sub>2</sub>
+Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff at u = 10, one step away from the ant's initial position. This problem usually asks for the probability of falling: 1 if p &le; <sup>1</sup>&frasl;<sub>2</sub> and (1-p)/p if p &ge; <sup>1</sup>&frasl;<sub>2</sub>
 
 # References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang  
