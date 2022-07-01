@@ -10,7 +10,7 @@ A wonderful puzzle for anyone who enjoys mathematical challenges and writing com
 >  
 > Q3) Can you write a program that comes up with an estimate of average time to find food for any closed boundary around the anthill? What would be the answer if food is located outside an defined by ( (x – 2.5cm) / 30cm )2 + ( (y – 2.5cm) / 40cm )2 < 1 in coordinate system where the anthill is located at (x = 0cm, y = 0cm)? Provide us with a solution rounded to the nearest integer.  
 
-The appaling simplicity of the model matches only the need to connect to disparate tools.  
+The appaling simplicity of the model matches only the beauty of connecting to disparate tools.  
 
 A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.  
 
