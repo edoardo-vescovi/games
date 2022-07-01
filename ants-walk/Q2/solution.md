@@ -1,5 +1,6 @@
 Solution
-The ant can explore the half-plane y &le 1-x. The points are infinite, as the number of variables is now.
+The ant can explore the half-plane y &le; 1-x. The new challenge is the infinite number of points and variables to solve for. The new food locations enjoy translational symmetry (x,y) &rarr; (x+a,y-a) by any integer a.
+
 
 
 As the previous approach becomes infeasible, we observe that the ant's walk reduces to the drunkard's walk in one dimension.
