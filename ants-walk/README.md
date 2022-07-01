@@ -12,8 +12,10 @@ A wonderful puzzle for anyone who enjoys mathematical challenges and writing com
 
 The appaling simplicity of the model matches only the beauty of connecting to disparate tools.  
 
-A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.  
+A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. We can jump over the actual calculations with the help of Wolfram Mathematica. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.
+
+
 
 More amazingly, a *proper* implementation on calculator leads to design simple and complete examples of file handling, dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vector and hash table), C++ libraries (std::vector and std::unordered_map) and classes (incl. the infamous memory management of constructor/deconctructor/copy/assignment operators).
 
-With all that being said, it goes without saying that you must grab pen and paper, or launch Wolfram Mathematica, set up your C++ compiler and smash your head first to enjoy this beauty then!
+With all that being said, it goes without saying that you must smash your head first to enjoy this beauty then!
