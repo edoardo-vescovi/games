@@ -17,8 +17,11 @@ E(0,2) = E(1,2) = E(2,2) = 0
 The ant walks for an exta second before reaching the current location (lhs) from the 4 neighbouring locations (rhs). The probability of each step is <sup>1</sup>&frasl;<sub>4</sub>. The independent variables are  
 
 E(0,0) = 4.5  
+
 E(0,1) = 3.5  
+
 E(1,1) = 2.75  
+
 E(0,2) = E(1,2)=E(2,2)=0.  
 
 The ant walks for a time equal to E(0,0) = 4.5 before reaching any food.
