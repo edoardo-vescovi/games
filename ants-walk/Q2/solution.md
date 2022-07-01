@@ -11,7 +11,7 @@ The solution depends on 2 undetermined constants, one of which is fixed by the b
 
 Let's introduce a fictitious food location to restrict the ant to the infinite strip -L-x &ge; y &ge; 10-x, with a large integer L, multiple of 10. The recurrence equation, together with the boundary conditions E(1)=E(-L)=0, delivers the *regularised* solution E(u) = (L+1)(1-u). The physics doesn't change though: if we attempt to remove the boundary in the limit L &rarr; &#8734;, then E(u) &rarr; &#8734;.
 
-The ant walks for infinite time E(0,0) = E(0) = &#8734; to reach the food in average, that is it *never* reaches it *in average*. Can we understant this counterintuitve result?
+The ant walks for infinite time E(0,0) = E(0) = &#8734; to reach the food in average, that is it *never* reaches it *in average*. Can we understand this counterintuitve result?
 
 The one-dimensional ant's walk is nothing but drunkard's walk in disguise:
 
