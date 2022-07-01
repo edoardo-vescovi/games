@@ -1,5 +1,5 @@
 Solution
-The ant can explore the half-plane y &le; 1-x. The new challenge is the infinite number of points and variables to solve for. The new food locations enjoy translational symmetry (x,y) &rarr; (x+n,y-n) by any integer n. This implies the solution has too: E(x,y)=E(x+n,y-n)
+The ant can explore the half-plane y &le; 1-x. The new challenge is the infinite number of points and variables to solve for. The new food locations have translational symmetry (x,y) &rarr; (x+n,y-n) by any integer n. This implies the solution has too: E(x,y)=E(x+n,y-n)
 
 
 
