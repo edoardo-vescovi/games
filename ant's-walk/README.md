@@ -9,7 +9,7 @@ This is wonderful puzzle for anyone who enjoys mathematical challenges and writi
 
 The appaling simplicity of the model matches only the necessary connection to disparate knowledge.  
 
-A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place establishes the connection to a famous random walk.  
+A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.  
 
 More amazingly, a *proper* implementation on calculator leads to write simple and complete examples of file hadling, dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vector and hash table), C++ libraries (std::vector and std::unordered_map) and classes (incl. memory management with the infamous constructor/deconctructor/copy/assignment operators).
 
