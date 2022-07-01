@@ -1,6 +1,6 @@
 # The ant's walk
 
-This is amazing puzzle for anyone who enjoys mathematical challenges and writing computer programs. Excerpt from a quant researcher job post by Optiver.
+This is wonderful puzzle for anyone who enjoys mathematical challenges and writing computer programs. Excerpt from a quant researcher job post by Optiver.
 
 > An ant leaves its anthill in order to forage for food. It moves with the speed of 10cm per second, but it doesn't know where to go, therefore every second it moves randomly 10cm directly north, south, east or west with equal probability.  
 > Q1) If the food is located on east-west lines 20cm to the north and 20cm to the south, as well as on north-south lines 20cm to the east and 20cm to the west from the anthill, how long will it take the ant to reach it on average?  
