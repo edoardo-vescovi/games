@@ -8,3 +8,4 @@ Output: average and standard deviation of a walk's time
 
 We corroborate the average time of 4.5 seconds for Q1.
 The average time is large and unstable upon multiple executions in Q2, which is compatible with  an infinite amount of time.
+The food is placed on all poinst obeying -8*x - 6*y > -155
