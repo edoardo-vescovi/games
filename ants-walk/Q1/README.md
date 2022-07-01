@@ -24,7 +24,7 @@ E(1,1) = 2.75
 
 E(0,2) = E(1,2) = E(2,2) = 0.  
 
-The ant walks for a time equal to E(0,0) = 4.5 before reaching any food.
+The ant walks for 4.5 seconds before reaching any food.
 
 References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
