@@ -18,4 +18,4 @@ A math solution encompasses (not so basic elements of) probability, algebraic eq
 
 More amazingly, a *proper* implementation on calculator leads to design simple and complete examples of file handling, dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vector and hash table), C++ libraries (std::vector and std::unordered_map) and classes (incl. the infamous memory management of constructor/deconctructor/copy/assignment operators).
 
-With all that being said, it goes without saying that you must smash your head first to enjoy this beauty then!
+With all that being said, it goes without saying that you must grab pen and paper and smash your head first to enjoy this beauty then!
