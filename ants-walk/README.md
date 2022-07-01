@@ -12,7 +12,7 @@ A wonderful puzzle for anyone who enjoys mathematical challenges and writing com
 
 The appaling simplicity of the model matches only the necessary beauty of connecting to disparate tools.  
 
-A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. That comes after invoking symmetry arguments to simplify the equations. We can jump over the actual calculations with the help of Wolfram Mathematica. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.
+A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recurrence. This comes after invoking symmetry arguments to simplify the equations. We can jump over the actual calculations with the help of Wolfram Mathematica. The cherry on top is that a naive solution *doesn't* always work. The discussion of *why* a solution should exist in the first place will establish a connection to a famous random walk.
 
 
 
