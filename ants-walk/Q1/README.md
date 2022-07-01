@@ -14,7 +14,7 @@ E(1,1) = <sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1)) + <sup>1</sup>&frasl;<sub>4<
 
 E(0,2) = E(1,2) = E(2,2) = 0  
 
-The ant walks for an exta second before reaching the current location (lhs) from the 4 neighbouring locations (rhs). The probability of moving from each neighbour was <sup>1</sup>&frasl;<sub>4</sub>. The independent variables are  
+The ant walks for an exta second before reaching the current location (lhs) from the 4 neighbouring locations (rhs). The probability of moving from any neighbour was <sup>1</sup>&frasl;<sub>4</sub>. The independent variables are  
 
 E(0,0) = 4.5  
 
