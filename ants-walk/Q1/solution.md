@@ -1,5 +1,6 @@
 
-## Math solution for Q1
+# Solution Q1
+
 The ant can explore the points $(x,y)$ with $ -2&lt; x,y &lt; 2 $.
 Call E(x,y) the average time elapsed walking from the point (0,0) to (x,y).
 The absence of a preferred walking direction, the ant's central starting point and the food location's 90-degree rotational symmetry imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
