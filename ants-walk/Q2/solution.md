@@ -1,5 +1,5 @@
 Solution
-The ant can explore the half-plane y&lt;1-x. The points are infinite, as the number of variables is now.
+The ant can explore the half-plane y &lt; 1-x. The points are infinite, as the number of variables is now.
 
 
 As the previous approach becomes infeasible, we observe that the ant's walk reduces to the drunkard's walk in one dimension.
