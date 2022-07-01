@@ -3,7 +3,7 @@
 
 The ant can explore the points (x,y) with -2&le; x,y&le;2.
 Call E(x,y) the average time elapsed walking from the point (0,0) to (x,y).
-The absence of a preferred walking direction, the ant's central starting point and the food location's 90-degree rotational symmetry imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
+The absence of a preferred walking direction, the ant's starting point and the food location's 90-degree rotational symmetry imply E(x,y)=E( &#177; x, &#177; y )=E(y,x).
 The law of total expectation enables us to write the system of equations  
 $E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
 $E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
