@@ -3,7 +3,7 @@
 
 The ant can explore the points (x,y) with -2&le; x,y&le;2.
 Call E(x,y) the average time elapsed walking from the point (0,0) to (x,y). 
-The law of total expectation enables us to write the system of equations  
+The law of total expectation yields the system of equations  
 
 E(0,0)=<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))   
 
