@@ -7,7 +7,8 @@ with u = ..., -20, -10, 0, 10.
 
 The solution depends on 2 undetermined constants, one of which is fixed by the boundary condition E(10)=0. This delivers E(u) = (c+u)(10-u). The physical constraint E(u) &ge; 0 would lead to conclude that c must be +&#8734;, and so E(u)! Can we prove it rigorously?
 
-Let's introduce a fictitious food location to restrict the ant to the infinite strip -L-x &le; y &le; 10-x, with a large integer L, multiple of 10. This means u = -L, -L+1, ..., -20, -10, 0, 10. The recurrence equation, together with the boundary conditions E(10)=E(-L)=0, delivers the *regularised* solution E(u) = (L+u)(10-u). The physics doesn't change though: if we attempt to remove the boundary in the limit L &rarr; &#8734;, then E(u) &rarr; &#8734;.
+Let's introduce a fictitious food location to restrict the ant to the infinite strip -L-x &le; y &le; 10-x, with a large integer L, multiple of 10. The recurrence equation, together with the boundary conditions E(10)=E(-L)=0, delivers the *regularised* solution E(u) = (L+u)(10-u). This is acceptable because E(u) &ge; 0 within the allowed positions u = -L, -L+1, ..., -20, -10, 0, 10.
+The physics doesn't change though: if we attempt to remove the boundary in the limit L &rarr; &#8734;, then E(u) &rarr; &#8734;.
 
 The ant walks for infinite time E(0,0) = E(0) = &#8734; to reach the food *in average*. Can we understand this counterintuitve result?
 
