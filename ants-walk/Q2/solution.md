@@ -3,9 +3,7 @@ The ant can explore the half-plane y &le; 1 - x. The new challenge is the infini
 
 E(u) = <sup>1</sup>&frasl;<sub>4</sub>(1+E(u+1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u+1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u-1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u-1))
 
-with  
-
-u = ..., -20, -10, 0, 10.
+with u = ..., -20, -10, 0, 10.
 
 The solution depends on 2 undetermined constants, one of which is fixed by the boundary condition E(1)=0. This delivers E(u) = (c+1)(1-u). The physical constraint E(u) &ge; 0 would lead to conclude that c must be +&#8734;, and so E(u)! Can we prove it rigorously?
 
