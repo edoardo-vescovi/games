@@ -11,7 +11,7 @@ The appaling simplicity of the model matches only the sane urge to connect to di
 
 A math solution encompasses (not so basic elements of) probability, algebraic equations and infinite recursion. That comes after invoking symmetry arguments to simplify the equations. The cherry on top is that a naive solution method *doesn't* always work. The discussion of *why* a solution should exist in the first place establishes the connection to a famous random walk.  
 
-More amazingly, a *proper* implementation on calculator leads to write simple -- yet complete -- examples of dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vectors and hash tables), C++ standard libraries (std::vector and std::unordered_map), classes (incl. the infamous constructor/deconctructor/copy/assignment operators).
+More amazingly, a *proper* implementation on calculator leads to write simple and complete examples of dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vectors and hash tables), C++ standard libraries (std::vector and std::unordered_map), classes (incl. the infamous constructor/deconctructor/copy/assignment operators).
 
 With all that said, you must grab pen and paper, set up your C++ compiler and stop reading now!  
 
