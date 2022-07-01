@@ -24,7 +24,7 @@ E(10,10) = 2.75
 
 E(0,20) = E(10,20) = E(20,20) = 0.  
 
-The ant walks for 4.5 seconds in average to reach the food.
+The ant walks for 4.5 seconds to reach the food in average.
 
 # References  
 Brainteasers in *150 Most Frequently Asked Questions on Quant Interviews* by Stefanica, Radoičić, Wang
