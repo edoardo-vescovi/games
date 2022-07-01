@@ -16,7 +16,7 @@ A math solution encompasses (not so basic elements of) probability, algebraic eq
 
 More amazingly, a *proper* implementation on calculator leads to design simple and complete examples of file handling, dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vector and hash table), C++ libraries (std::vector and std::unordered_map) and classes (incl. memory management with the infamous constructor/deconctructor/copy/assignment operators).
 
-With all that being said, it goes without saying that you must grab pen and paper, set up your C++ compiler and try yourself first!  
+With all that being said, it goes without saying that you must grab pen and paper, set up your C++ compiler and smash your head first!  
 
 ## Math solution for Q1
 The ant can explore the points $(x,y)$ with $ -2&lt; x,y &lt; 2 $.
