@@ -16,40 +16,4 @@ A math solution encompasses (not so basic elements of) probability, algebraic eq
 
 More amazingly, a *proper* implementation on calculator leads to design simple and complete examples of file handling, dynamic allocation, random-number generation (incl. a cool initalisation), data structures (vector and hash table), C++ libraries (std::vector and std::unordered_map) and classes (incl. memory management with the infamous constructor/deconctructor/copy/assignment operators).
 
-With all that being said, it goes without saying that you must grab pen and paper, set up your C++ compiler and smash your head first!  
-
-## Math solution for Q1
-The ant can explore the points $(x,y)$ with $ -2&lt; x,y &lt; 2 $.
-Call E(x,y) the average time elapsed walking from the point (0,0) to (x,y).
-The absence of a preferred walking direction, the ant's central starting point and the food location's 90-degree rotational symmetry imply $E(x,y)=E( &#177; x, &#177; y )=E(y,x)$.
-The law of total expectation enables us to write the system of equations  
-$E(0,0)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(0,1))$  
-$E(0,10)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,0))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,2))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,1))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,1))$  
-$E(1,1)=<sup>1</sup>&frasl;<sub>4</sub> (1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(0,1))+<sup>1</sup>&frasl;<sub>4</sub>(1+E(1,2))+<sup>10</sup>&frasl;<sub>4</sub> (1+E(1,2))$  
-$E(0,2)=E(1,2)=E(2,2)=0$  
-Indeed, the ant has travelled for an exta second to reach its current location point from the previous one, with equal probability $<sup>1</sup>&frasl;<sub>4</sub>$ to reach it from any of the $4$ neighbours.
-The solution is  
-$E(0,0)=4.5$  
-$E(0,1)=3.5$  
-$E(1,1)=2.75$  
-$E(0,2)=E(1,2)=E(2,2)=0$.  
-The ant walks for a time equal to $E(0,0)=4.5$ before reaching any food.
-
-References  
-Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang
-
-## Math solution for Q2
-The ant can explore the half-plane $y&lt;1-x$. The explorable points are infinite, as the number of unknowns to solve for would be.
-As the previous approach becomes infeasible, we observe that the ant's walk reduces to the drunkard's walk in one dimension.
-Indeed, we can section the visitable locations with the lines $y=c-x$, where $c=-...,-20,-10,0,10$. \
-
-
-
-As a time unit passes, the ant steps anywhere on the line with $c$ from either those with $c-1$ or $c+1$, with equal probability $<sup>1</sup>&frasl;<sub>2</sub>$ for both.
-
-References  
-Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang  
-https://medium.com/i-math/the-drunkards-walk-explained-48a0205d304  
-https://math.stackexchange.com/questions/306467/expected-number-of-steps-for-reaching-k-in-a-random-walk
-
-## Programming solution for Q1, Q2, Q3
+With all that being said, it goes without saying that you must grab pen and paper, set up your C++ compiler and smash your head first!
