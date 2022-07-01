@@ -9,7 +9,7 @@ u = ..., -20, -10, 0, 10.
 
 The solution depends on 2 undetermined constants, one of which is fixed by the boundary condition E(1)=0. This delivers E(u) = (c+1)(1-u). The physical constraint E(u) &ge; 0 would lead to conclude that c must be +&#8734;, and so E(u)! Can we prove it rigorously?
 
-Let's introduce a fictitious food location to restrict the ant to the infinite strip -L-x &qe; y &qe; 10-x, with a large integer L, multiple of 10. The recurrence equation, together with the boundary conditions E(1)=E(-L)=0, delivers the *regularised* solution E(u) = (L+1)(1-u). The physics doesn't change though: if we attempt to remove the boundary in the limit L &rarr; &#8734;, then E(u) &rarr; &#8734;.
+Let's introduce a fictitious food location to restrict the ant to the infinite strip -L-x &ge; y &ge; 10-x, with a large integer L, multiple of 10. The recurrence equation, together with the boundary conditions E(1)=E(-L)=0, delivers the *regularised* solution E(u) = (L+1)(1-u). The physics doesn't change though: if we attempt to remove the boundary in the limit L &rarr; &#8734;, then E(u) &rarr; &#8734;.
 
 The ant walks for infinite time E(0,0) = E(0) = &#8734; to reach the food in average, that is it *never* reaches it *in average*. Can we understant this counterintuitve result?
 
@@ -17,7 +17,7 @@ The one-dimensional ant's walk is nothing but drunkard's walk in disguise:
 
 > There once was a drunk man who wandered far too close to a cliff. From where he stands, one step forward would send the drunk man over the edge. He takes random steps, either towards or away from the cliff. At any step, his probability of taking a step away is p and a step towards the cliff is 1-p.
 
-Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff is at u = 10. This problem usually asks for the probability of falling: 1 if p &le; <sup>1</sup>&frasl;<sub>2</sub> and (1-p)/p if p &qe; <sup>1</sup>&frasl;<sub>2</sub>
+Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff is at u = 10. This problem usually asks for the probability of falling: 1 if p &le; <sup>1</sup>&frasl;<sub>2</sub> and (1-p)/p if p &ge; <sup>1</sup>&frasl;<sub>2</sub>
 
 # References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang  
