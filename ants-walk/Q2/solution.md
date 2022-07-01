@@ -19,7 +19,7 @@ The one-dimensional ant's walk is nothing but drunkard's walk in disguise:
 
 This problem usually asks for the probability of falling: 1 if p &le; <sup>1</sup>&frasl;<sub>2</sub> and (1-p)/p if p &ge; <sup>1</sup>&frasl;<sub>2</sub>.
 
-Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff at u = 10, one step away from the ant's initial position. We deduce the ant certainly reaches the food, no matter how long the walk takes: the shortest walk takes 1 second, the longest infinite time. However, when one averages the elapsed times with the corresponding probabilities to compute E(0), one finds that such infinite sum diverges. The Pareto distribution is another an example of finite probability distribution with infinite mean.
+Here p = <sup>1</sup>&frasl;<sub>2</sub>, the relevant coordinate is u and the cliff at u = 10, one step away from the ant's initial position. We deduce the ant certainly reaches the food, no matter how long the walk takes: the shortest 1 second, the longest infinite time. However, when one averages the elapsed times with the corresponding probabilities to compute E(0), one finds that such infinite sum diverges. The Pareto distribution is another an example of finite probability distribution with infinite mean.
 
 # References  
 Brainteasers in "150 Most Frequently Asked Questions on Quant Interviews" by Stefanica, Radoičić, Wang  
