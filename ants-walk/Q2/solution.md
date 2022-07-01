@@ -3,7 +3,7 @@ The ant can explore the half-plane y &le; 1-x. The new challenge is the infinite
 
 E(u) = <sup>1</sup>&frasl;<sub>4</sub>(1+E(u+1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u+1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u-1)) + <sup>1</sup>&frasl;<sub>4</sub>(1+E(u-1))  
 
-with the boundary condition E(1)=0.
+with the boundary condition E(1)=0 and the constraint E(u) &ge;
 
 The ant's walk is the drunkard's walk.
 Indeed, we can section the visitable locations with the lines $y=c-x$, where $c=-...,-20,-10,0,10$.
