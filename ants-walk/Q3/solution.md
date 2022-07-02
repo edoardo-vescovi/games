@@ -10,4 +10,4 @@ Q1) We corroborate the average time of 4.5 seconds.
 
 Q2) The average time is large and fluctuating, which agrees with an infinite result.  
 
-Q3) The average time is 14 seconds. One could write and solve the equations to corroborate.
+Q3) The average time is 14 seconds. One may write and solve the equations to corroborate.
