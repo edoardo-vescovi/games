@@ -8,7 +8,7 @@ A wonderful puzzle for anyone who enjoys mathematical challenges and writing com
 >  
 > Q2) What is the average time the ant will reach food if it is located only on a diagonal line passing through (10cm, 0cm) and (0cm, 10cm) points?  
 >  
-> Q3) Can you write a program that comes up with an estimate of average time to find food for any closed boundary around the anthill? What would be the answer if food is located outside an defined by $( (x – 2.5cm) / 30cm )^2 + ( (y – 2.5cm) / 40cm )^2 < 1$ in coordinate system where the anthill is located at (x = 0cm, y = 0cm)? Provide us with a solution rounded to the nearest integer.  
+> Q3) Can you write a program that comes up with an estimate of average time to find food for any closed boundary around the anthill? What would be the answer if food is located outside and defined by $( (x – 2.5cm) / 30cm )^2 + ( (y – 2.5cm) / 40cm )^2 < 1$ in coordinate system where the anthill is located at (x = 0cm, y = 0cm)? Provide us with a solution rounded to the nearest integer.  
 
 The appaling simplicity of the model matches only the necessary beauty of connecting to disparate tools.  
 
